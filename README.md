@@ -1,5 +1,5 @@
-# Capturando el resultado de una lista de palabras.
+# Capturing the result of a list of words.
 
-- Se usa el proxy de scrapeops-scrapy-proxy-sdk.
+- The scrapeops-scrapy-proxy-sdk proxy is used.
 
-#### Nota: Puede ocurrir que haya cierta perdida de datos por los siguientes errores: (HTTP) 500 Internal Server Error, Error 429. Para esto se configurar el DOWNLOAD_DELAY en settings.py o agregando time.sleep() en el codigo.
+#### Note: There may be some loss of data due to the following errors: (HTTP) 500 Internal Server Error, Error 429. For this, configure the DOWNLOAD_DELAY in settings.
